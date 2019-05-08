@@ -1,0 +1,52 @@
+html, 
+body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+.map-class {
+  height: 100%;
+  overflow: hidden;
+}
+
+.list-div { 
+  position: absolute;
+  top: 115px; 
+  left: -30px; 
+  z-index: 99;
+}
+
+.btn{
+  position: absolute;
+  top: 80px; 
+  left: 10px; 
+  z-index: 99;
+  font-size: 8px;
+  height: 2em;
+  color: #000000;
+}
+
+/*)) http://www.marcofolio.net/css/8_different_ways_to_beautifully_style_your_lists.html*/
+  /* LIST #8 */
+.list-div {  }
+.list-div ul { 
+  list-style:none;
+}
+.list-div ul li { font-family:Georgia,serif,Times; font-size: 15px; }
+.list-div ul li { display:block; width: 300px; height: 20px; background-color: #333; border-left:5px solid #222; border-right:5px solid #222; padding-left: 10px;
+  text-decoration:none; color:#bfe1f1; }
+/*#list-div ul li:hover {  -moz-transform:rotate(-5deg); -moz-box-shadow:10px 10px 20px #000000;
+  -webkit-transform:rotate(-5deg); -webkit-box-shadow:10px 10px 20px #000000;
+  transform:rotate(-5deg); box-shadow:10px 10px 20px #000000; }*/
+.list-div ul p { display:block; width: 300px; height: 20px; background-color: #333; border-left:5px solid #222; border-right:5px solid #222; padding-left: 10px;
+  text-decoration:none; color:#bfe1f1; text-align: center; margin: 0px; }
+
+.search-bar{ 
+  position: absolute;
+  top: 50px; 
+  left: 10px; 
+  z-index: 99;
+  color: #bfe1f1;
+  background-color: #333
+}
